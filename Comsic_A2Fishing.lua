@@ -1,7 +1,15 @@
 -- 开始前先领取第一个任务
+-- /ice only 508
 comsic = 1
 
 while comsic == 1 do 
+    item1 = Inventory.GetItemCount(48233) -- 48233 = 任务制作材料 宇宙货箱
+    item2 = Inventory.GetItemCount(45961) -- 45961 = 任务用钓饵 淡水万能机械臂
+
+    while item1 ~= 20 or item2 ~= 999 do
+        --yield("/echo Waiting for target quest")
+        yield("/wait 5")
+    end
 
 	-- Fish
 	yield("/equipjob ".."捕鱼人")
@@ -36,6 +44,6 @@ while comsic == 1 do
 	yield("/wait 5")
 	yield("/ice start")
     -- 结束后重新开始
-	yield("/wait 30")
+	yield("/wait 5")
 
 end
