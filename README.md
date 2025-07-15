@@ -21,7 +21,7 @@ AH4_H4sIAAAAAAAACtVXS2/bRhD+L3smCz6Wz5ui2q4BOTUiBT0YPSy5Q2lhiqssl4ldQ0ACFGhzKFAg
 
     ```
     /equipjob 捕鱼人
-    /ice only 508
+    /ice only 508 (会清空配置，建议手动给钓鱼配)
     /ice start
     /snd run Lua宏名
     ```
