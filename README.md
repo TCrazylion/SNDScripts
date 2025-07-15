@@ -1,3 +1,5 @@
+## Ugly Code
+
 ### SND A2联合任务LUA脚本
 
 #### Autohook 预设
@@ -29,3 +31,4 @@ AH4_H4sIAAAAAAAACtVXS2/bRhD+L3smCz6Wz5ui2q4BOTUiBT0YPSy5Q2lhiqssl4ldQ0ACFGhzKFAg
     - 过段时间会警惕
     - GP不够会跳过前期的等待时间(当前等待120s)
     - 没测试8分钟没掉上来的情况
+    - 不知道怎么判断已经开始制定任务（没找到代码抄）
