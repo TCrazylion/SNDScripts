@@ -23,6 +23,8 @@ while comsic == 1 do
 		--yield("/echo Still Fishing")
 		yield("/wait 3")
 	end
+
+    -- 45917 = 任务水产品 重无结构陨铁
 	
 	yield("/echo Ending Fishing")
 	yield("/wait 5")
