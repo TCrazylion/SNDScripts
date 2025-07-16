@@ -18,7 +18,6 @@ while comsic == 1 do
 	--yield("/equipjob ".."捕鱼人")
 	--yield("/ahpreset A2联合")
 	yield("/wait 3")
-	yield("/ahstart")
 
 	-- 45917 = 任务水产品 重无结构陨铁
 	while Inventory.GetItemCount(45917) < 14 do
