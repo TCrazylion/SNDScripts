@@ -1,7 +1,7 @@
 -- 开始前先领取第一个任务, 确认各插件配置
 -- /ice only 508
-comsic = 1
-debug = true -- 调试模式
+comsic = 0
+debug = false -- 调试模式
 craft_time = 50 -- 50秒锻造时间
 
 while comsic == 1 do 
