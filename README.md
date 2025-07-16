@@ -33,5 +33,5 @@ AH4_H4sIAAAAAAAACtVXTW/bRhD9L3smC3L5teRNUW3XgJwakYIejB5W5FBamOIqy2Vi1xCQAAXaHAoU
     - 过段时间会警惕
     - 没测试8分钟没掉上来的情况
 
-    - 调用SND提供的IPC
-    - 预先检测GP防止跳过后续判断
+    - 调用SND提供的IPC(有些Help里面有写不知道为什么用不了)
+    - 预先检测GP防止跳过后续判断(通过循环判断规避)
