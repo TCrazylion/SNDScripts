@@ -17,7 +17,7 @@ AH4_H4sIAAAAAAAACtVXTW/bRhD9L3smC3L5teRNUW3XgJwakYIejB5W5FBamOIqy2Vi1xCQAAXaHAoU
 
   - 需要SND/ICE/Autohook/Arstian/Simpletweaks
 
-  - 导入lua脚本并配置`comsic = 1`，以及宏的时间(冗余+5s)
+  - 导入lua脚本并配置`comsic = 1`
 
   - 切换为采集职业配置ICE领取第一个任务：A-2 加工水产金属锭，领取成功以后运行脚本
 
@@ -31,7 +31,4 @@ AH4_H4sIAAAAAAAACtVXTW/bRhD9L3smC3L5teRNUW3XgJwakYIejB5W5FBamOIqy2Vi1xCQAAXaHAoU
   - 已知问题（不会/懒）/TODO
 
     - 过段时间会警惕
-    - 最后时间钓上鱼会搓不完浪费GP(不知道怎么获取GP和任务剩余时间)
-
-    - 调用SND提供的IPC(有些Help里面有写不知道为什么用不了)
-    - 预先检测GP防止跳过后续判断(通过循环判断规避)
+    - 最后时间钓上鱼会搓不完浪费GP(没找到获取GP的函数)
